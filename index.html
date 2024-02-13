@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    
+    <title></title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-xw0+5R9tAeDzMciQOG2BC5R8QM+9ZNjQR2I8PV5lhmGfDGR6Bvx5c1g0MQ4wwbPwMzlFWynqBRpMV1KyGMbc8w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    
+</head>
+
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+
+    }
+    body{
+        background-color: rgb(25, 27, 12);
+   
+   color: rgb(255, 248, 240);}
+   nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+    background-color: burlywood;
+
+   }
+   nav ul{
+    display: flex;
+    justify-content: center;
+    
+   }
+   nav li{
+    list-style: none;
+    margin: 0 40px;
+   }
+   .left{
+    font-size: 1.6rem;
+    font:bold;
+   }
+   .first{
+    display: flex;
+    justify-content: space-around;
+    margin: 25px 0;
+   }
+   .firstdev{
+    width: 33%;
+   }
+   .leftsection{
+    height: 7rem;
+    width: 40%;
+    font-size: 3rem;
+    
+   }
+   .rightsection{
+    
+    width: 40%;
+
+   }
+   nav ul li a{
+    text-decoration: dashed;
+    color: rgb(248, 247, 246)
+
+   }
+   nav ul li a:hover{
+    color: orangered;
+    font-size: 1.4rem;
+    background-color: black;
+   }
+   #element{
+    color: blueviolet;
+   }
+</style>
+<body>
+    <header>
+        <nav>
+            <div class="left" style="background-color: rgb(15, 15, 15);color: orange;" > PRESS PREMIUM NEWS MAGZINE/ TEMPLATE</div>
+         
+         
+         
+         
+         
+         
+            <div clas="right"></div>
+            <UL>
+                <li>
+                    <a href="#HOME">HOME</a>
+                </li>
+                <li>
+                    <a href="#TRAVEL">TRAVEL</a>
+                </li>
+                <li>
+                    <a href="#MOVIES">MOVIES</a>
+                </li>
+                <li>
+                    <a href="#CONTACTUS">CONTACT US</a>
+                </li>
+                
+            </UL>
+        </nav>
+        <main>
+            <section class="first">
+                <div class="leftsection">
+            WELCOME TO OUR WEBSITE EXPLORE THE CONTENT WHICH YOU WANT TO BE.
+                
+                <div> </div>
+                <span id="element"></span>
+            </div>
+                <div class="rightsection">
+                    <img src="https://static.toiimg.com/thumb/msid-68949162,width-400,resizemode-4/68949162.jpg">
+                </div>
+            </section>
+        </main>
+        <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+        <script>
+            var typed = new Typed('#element', {
+              strings: [' PREMIUM NEWS', 'MAGZINES','TEMPLATES'],
+              typeSpeed: 100,
+            });
+          </script>
+
+          <br>
+          <br>
+          <br>
+          <hr>
+          <div class="TRAVEL" id="TRAVEL">
+            <h1 style="text-align: center; size: 1rem; color: rgb(0, 15, 15); background-color: rgb(194, 194, 106);" > TRAVEL</h1>
+
+<uL style="text-align: center; background-color: antiquewhite; color: black;">
+    <br> <br>
+                <LI> 
+                    <a href="https://www.thomascook.in/">
+                    EXPLORE DESTINATION</LI>
+                <LI> BUDGET ESTIMATION</LI>
+                <LI> CHOSE YOUR FLIGHT</LI>
+               </uL> 
+            <br>
+            
+            <br>
+            
+           
+           </div>
+           
+       
+   
+   
+   <HR>
+           
+       </div>
+       <div class="MOVIES" id="MOVIES">
+           <h1 style="text-align: center; size: 1rem; color: darkred; background-color: rgb(40, 156, 223);"> MOVIES</h1>
+           <img src="https://t3.ftcdn.net/jpg/03/74/28/58/360_F_374285858_KzJ88FysqJ79AhyNPW2lqnBtsRTokuav.jpg" style="height: 5 rem; align-items: center;">
+           <p style=" font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; text-size-adjust: center; background-color: antiquewhite; color: black; text-align: center; font-size: 1.7rem;" ><br> <br> 
+            <ul style="text-align: center; background-color: beige; color: rgb(12, 8, 1);">
+                <li> <a href="https://www.pvrcinemas.com/">
+                    TICKET BOOKING
+                </li>
+                <LI>
+                    TICKET PRICE
+                </LI>
+                <LI>
+                    MOVIE TIMETABLE
+                </LI>
+            </ul><br> <br>
+          <a href="index.html" > <button style="background-color: black; color: red;" id="numberButton"> VERIFY</button>
+
+            <script>
+                document.getElementById('numberButton').addEventListener('click', function() {
+                    
+                    var userInput = prompt('Enter a number between 0 and 99:');
+        
+        
+                    if (userInput !== null && !isNaN(userInput)) {
+                        
+                        var number = parseInt(userInput);
+        
+            
+                        if (number >= 0 && number <= 99) {
+                            alert('You entered: ' + number);
+                        } else {
+                            alert('Please enter a number between 0 and 99.');
+                        }
+                    } else {
+                        alert('Invalid input. Please enter a valid number.');
+                    }
+                });
+            </script>
+         </a></p>
+           
+   
+               
+               
+       
+       
+   
+   </li>
+   </ol>
+   
+       </div> <hr>
+       
+   
+   
+   
+   
+       
+       
+       <div class="CONTACTUS" id="CONTACTUS">
+           <h1 style="text-align: center;
+           font-family: Arial, Helvetica, sans-serif;
+           color: rgb(175, 154, 31);background-color: rgb(1, 10, 10);
+           "> CONTACT-US<br></h1>
+           
+                   
+                       <h><b style="color: navy; font-size: 1rem; background-color: antiquewhite;" >TOLL FREE CUSTOMER CARE:</b></h>
+        
+               <p style=" font-family: Arial, Helvetica, sans-serif;color: black; text-align:center; background-color: antiquewhite;"> <b>
+                   IN Case customer want any type of guidance knowlegde or detail information about the product. you can conatct on given below phone numbers  and can also mail us. Thanks.
+                   PHONE NUMBER= <a href="tel:89689XXXXX"> 89689XXXXX</a>
+                 
+              <br>     <A href="MAILTO:harman020304@GMAIL.COM"> <b style=" text-align: center;">harman020304@gmail.com</b></A></p>  
+              <style>
+               
+                body {
+                    font-family: Arial, sans-serif;
+                    margin: 20px;
+                }
+        
+                form {
+                    max-width: 400px;
+                    margin: 0 auto;
+                }
+        
+                label {
+                    display: block;
+                    margin-bottom: 8px;
+                }
+        
+                input, textarea {
+                    width: 100%;
+                    padding: 8px;
+                    margin-bottom: 16px;
+                }
+        
+                button {
+                    background-color: #4CAF50;
+                    color: white;
+                    padding: 10px 15px;
+                    border: none;
+                    border-radius: 4px;
+                    cursor: pointer;
+                }
+            </style>
+        </head>
+        <body>
+        
+            <h2>CONTACT US FORM:</h2>
+        
+            <form id="contactForm">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+        
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+        
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+        
+                <button type="button" onclick="submitForm()">Submit</button>
+            </form>
+        
+            <script>
+                function submitForm() {
+                    
+                    var name = document.getElementById('name').value;
+                    var email = document.getElementById('email').value;
+                    var message = document.getElementById('message').value;
+        
+                    
+                    if (name.trim() === '' || email.trim() === '' || message.trim() === '') {
+                        alert('Please fill in all fields.');
+                        return;
+                    }
+        
+                    
+                    var emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+                    if (!emailRegex.test(email)) {
+                        alert('Please enter a valid email address.');
+                        return;
+                    }
+        
+                    
+                    
+                    alert('Form submitted!\nName: ' + name + '\nEmail: ' + email + '\nMessage: ' + message);
+        
+                    document.getElementById('name').value = '';
+                    document.getElementById('email').value = '';
+                    document.getElementById('message').value = '';
+                }
+            </script>
+            <br>
+            <p style="text-align: center; font-size: 2rem;"> THANKYOU FOR VISITING</p>
+         
+        </body>
+        <IMG style="height: 13rem; width: 100%;" src="https://i.pinimg.com/originals/5d/dd/5b/5ddd5bbd53f9e0b4dc367e0d938b565b.png">
+           
+</html>

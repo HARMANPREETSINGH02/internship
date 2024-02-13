@@ -1,0 +1,12 @@
+.WebContainer{
+    width: 90px;
+    height: auto;
+}
+.articles{
+    width:90px; /*Takes 90% width from WebContainer*/
+    height: auto;
+    margin: auto;
+}
+@media screen {
+    max-width:90px;
+}
